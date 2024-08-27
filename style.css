@@ -1,0 +1,61 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to bottom, #f7f7f7, #e7e7e7);
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#task-input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+}
+
+#add-task-btn {
+    background-image: linear-gradient(to bottom, #4CAF50, #3e8e41);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-image: linear-gradient(to bottom, #3e8e41, #4CAF50);
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#task-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#task-list li:last-child {
+    border-bottom: none;
+}
+
+.delete-btn {
+    background-image: linear-gradient(to bottom, #ff69b4, #ff3737);
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.delete-btn:hover {
+    background-image: linear-gradient(to bottom, #ff3737, #ff69b4);
+}
